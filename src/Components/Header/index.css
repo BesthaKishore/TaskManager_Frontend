@@ -1,0 +1,60 @@
+.Header_main_container{
+    padding: 10px 40px;
+    box-shadow: 0px 0px 16px #bfbfbf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.Header_heading{
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Header_input_contianer, .Header_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.Header_input_contianer{
+    background-color: #dfdfdf;
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.Header_input{
+    width: 100%;
+    padding: 0px 8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Header_btn{
+    background-color: #dfdfdf;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}

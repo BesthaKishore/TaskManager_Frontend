@@ -1,0 +1,55 @@
+.task-card {
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.task-description,
+.task-remarks {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: rgb(150, 147, 147);
+}
+
+.task-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.task-status,.task-date {
+  text-transform: capitalize;
+  color: #222222;
+  font-weight: 600;
+}
+
+.Edit_delete_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+}
+
+.delte_btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.Delete_icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
